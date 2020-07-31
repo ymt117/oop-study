@@ -3,15 +3,15 @@ class Point:
         self.x = x
         self.y = y
 
-    def print_x(self):
-        print(self.x)
+    def get_x(self):
+        return self.x
 
-    def print_y(self):
-        print(self.y)
+    def get_y(self):
+        return self.y
 
 class Shape:
     def contains(self):
         return true
 
 point = Point(2, 4)
-point.print_x()
+print(point.get_x())
