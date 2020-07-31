@@ -9,9 +9,6 @@ class Point:
     def get_y(self):
         return self.y
 
-class Shape:
-    def contains(self):
-        return true
 
 point = Point(2, 4)
 print(point.get_x())
